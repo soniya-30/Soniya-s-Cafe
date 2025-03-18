@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Buy button logic (common pattern)
     const coffeePages = [
-        { id: 'buy-americano-btn', redirect: 'Americano.html' },
+        { id: 'buy-americano-btn', redirect: 'americano.html' },
         { id: 'buy-cappuccino-btn', redirect: 'Cappuccino.html' },
         { id: 'buy-Caffe-macchiato-btn', redirect: 'Caffe-macchiato.html' },
         { id: 'buy-Affogato-btn', redirect: 'Affogato.html' },
