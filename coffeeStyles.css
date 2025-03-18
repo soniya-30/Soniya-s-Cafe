@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 img{
+    margin: 10px;
+    border: rgb(206, 204, 204) 1.4px solid;
+    border-radius: 10px;
+}
+.container2{
+    margin: 10px;
+    border: #cecccc 1.4px solid;
+    border-radius: 10px;
+    padding: 17px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+}
+/* ------------------------------coffee image------------------------------ */
+.coffee-img img{
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* -----------------------------coffee-btn----------------------------------- */
+.coffee-btn button{
+    width: 400px;
+    height: 50px;
+    /* background-color: #edb555; */
+    background-color: #dbbf5d;
+    background-image: linear-gradient(90deg, #dbbf5d 0%, #ca963b 100%);
+    border: none;
+    border-radius: 10px;
+    margin-left: 9px;
+    color: #f9f6e7;
+    font-size: large;
+    font-weight: 550;
+}
+.coffee-btn button:hover{
+    background-color: #f8c979;
+}
+/*-------------------------------- Americano---------------------------- */
+.Americano{
+    font-weight: 600;
+    font-size: larger;
+    color: #e49102;
+}
+
+/* -------------------------------net-qty------------------------------ */
+.net-qty{
+    color: #90939d;
+    font-size: small;
+    line-height: 0;
+}
+
+.qty{
+    color: #707687; 
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 0;
+}
+
+/* ----------------------------coffeeQuantity------------------------------- */
+.coffeeQuantity{
+    color: #90939d;
+    font-size: 14px;
+    line-height: 0;
+}
+
+.coffeeQuantity{
+    color: #90939d;
+    font-size: 15px;
+    line-height: 0;
+    border-radius: 4px;
+    font-size: 13px;
+    outline: none;
+}
+/* --------------------------------price -----------------------------------*/
+.price{
+    box-sizing: border-box;
+    width: 100%;
+    height:auto;
+    display: flex;
+     flex-direction: row; 
+    align-items: baseline;
+    justify-content: space-between; 
+    /* outline: rebeccapurple 3px solid; */
+    line-height: 0;
+}
+
+.coffee-card{
+    width: 80%;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content:space-between;
+    /* outline: rebeccapurple 3px solid; */
+    line-height: 0;
+    /* align-content: space-between; */
+}
+
+.paraclass{
+    display: flex;
+    justify-content: space-evenly;
+}
+.disscount{
+    margin-left: 8px;
+    color: green;
+}
+.price-para1{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* -------------------------------mrp------------------------------------ */
+.mrp span{
+    font-size: 14px;
+    color: #404551;
+}
+
+/* ------------------------------coupens-offers------------------------------- */
+#coupens-offers-text{
+    font-weight: 600;
+    color: #55586d;
+}
+
+/*   -----------------------------Payment ----------------------------  */
+.payment-class{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: center;
+}
+.payment-class img{
+    width: 35px;
+    height: 35px;
+    margin: 6px;
+}
+
+.payment-class p{
+    text-align: center;
+    font-size: 13.3px;
+    color: #404551;
+}
+
+.payment-class:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+/* ---------------------------horizontal-line--------------------------- */
+.horizontal-line{
+    height: 1.4px;
+    width: 99%;
+    background-color: #cecccc;
+    margin: 8px 0 8px 0;
+}
+
+/* ---------------------------------Warning ----------------------------*/
+.warnings{
+    display: flex;
+    flex-direction: row;
+    padding-top: 6px;
+
+}
+
+.warnings-styles{
+    width: 100px;
+    height: 100px;
+    background-color: #FFEDFA;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2px;
+    margin-right: 25px;
+    margin-top: 8px;
+}
+.warnings-styles p{
+    font-size: 11px;
+    color: #535869;
+}
